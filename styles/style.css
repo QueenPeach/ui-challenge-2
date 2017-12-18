@@ -14,6 +14,8 @@ header {
 h2 {
     font-size: 24px;
     font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
   
 div {
@@ -30,13 +32,87 @@ section {
     font-size: 20px;
 }
 
+#inputnoerror {
+    padding: 8px;
+}
+
 #inputerror {
     box-shadow: 0 0 3px #CC0000;
+    padding: 8px;
 }
 
 #error {
     color: red;
-    margin-left: 206px;
-    font-size: 12px;
+    margin-left: 202px;
+    font-size: 14px;
 }
+
+/* this is for check box styles */
+
+input[type=checkbox] {
+    display:none;
+  }
+  
+  input[type=checkbox] {
+  display: inline-block;
+  background-image: url(checkbox.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  margin-right: 25px;
+  zoom: .3;
+  }
+
+  #check-two {
+      background-image: url(checkboxclicked.png);
+  }
+  
+  /* this is for radio styles */
+  
+  input[type=radio] {
+    display:none;
+  }
+  
+  input[type=radio] {
+  display: inline-block;
+  background-image: url(radio.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  margin-right: 25px;
+  zoom: .3;
+  }
+
+  #radio-two {
+      background-image: url(radioclicked.png);
+  }
+  
+
+/* this is for button styles */
+
+#button {
+    background-color:#939090;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+#button-two {
+    background-color: #474747;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+
+
   
